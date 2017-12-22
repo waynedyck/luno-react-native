@@ -1,20 +1,20 @@
 (ns luno.subs
   (:require-macros [reagent.ratom :refer [reaction]])
-  (:require [re-frame.core :refer [register-sub]]))
+  (:require [re-frame.core :refer [reg-sub-raw]]))
 
-(register-sub
+(reg-sub-raw
   :get-android-drawer
   (fn [db _]
     (reaction
       (get-in @db [:android :drawer]))))
 
-(register-sub
+(reg-sub-raw
   :get-shared-tab
   (fn [db _]
     (reaction
       (get-in @db [:shared :tab]))))
 
-(register-sub
+(reg-sub-raw
   :get-data
   (fn [db _]
     (reaction

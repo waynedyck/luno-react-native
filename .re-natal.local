@@ -1,3 +1,8 @@
 {
-  "autoRequire": true
+  "autoRequire": true,
+  "platforms": {
+    "ios": {
+      "host": "localhost"
+    }
+  }
 }
