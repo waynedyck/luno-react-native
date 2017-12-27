@@ -10,7 +10,6 @@
 		"babel-plugin-transform-es2015-block-scoping": "6.15.0",
 		"react": "16.0.0",
 		"react-native": "0.51.0",
-		"react-native-button": "2.2.0",
 		"react-native-dialogs": "0.0.21",
 		"react-native-material-design": "git+https://github.com/react-native-material-design/react-native-material-design.git",
 		"react-native-store": "0.4.1"

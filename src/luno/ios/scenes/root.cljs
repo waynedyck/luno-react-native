@@ -44,8 +44,8 @@
                            :title    "About"}
       [about-scene {:style               (get-in s/styles [:scenes :about])
                     :github-button-fn    (fn [link]
-                                           [ios-ui/button {:on-press #(.openURL ui/linking link)}
-                                            "GitHub"])
+                                           [ui/button {:on-press #(.openURL ui/linking link)
+                                                       :title "GitHub"}])
                     :changelog-button-fn (fn [link]
-                                           [ios-ui/button {:on-press #(.openURL ui/linking link)}
-                                            "Changelog"])}]]]))
+                                           [ui/button {:on-press #(.openURL ui/linking link)
+                                                       :title "Changelog"}])}]]]))

@@ -27,4 +27,5 @@
 (def linking
   (.-Linking js/React))
 
-
+(def button
+  (r/adapt-react-class (.-Button js/React)))
